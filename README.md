@@ -16,6 +16,11 @@ docker run --rm -ti -p 8080:8080 -v $PWD/openapi:/opt/imposter/config outofcoffe
 docker run --rm -ti -p 8080:8080 -v $PWD/static-named-example:/opt/imposter/config outofcoffee/imposter-openapi
 ```
 
+## Run OPENAPI plugin with docker using scripted named payload
+```
+docker run --rm -ti -p 8080:8080 -v $PWD/scripted-named-example:/opt/imposter/config outofcoffee/imposter-openapi
+```
+
 ## Run SOAP plugin with docker
 ```
 docker run --rm -ti -p 8080:8080 -v $PWD/soap:/opt/imposter/config outofcoffee/imposter-all
