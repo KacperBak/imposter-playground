@@ -1,0 +1,16 @@
+---
+plugin: openapi
+specFile: petstore.json
+
+security:
+  # no requests permitted by default
+  default: Deny
+
+  # only requests meeting these conditions are permitted
+  conditions:
+  - effect: Permit
+    requestHeaders:
+      X-Custom-Api-Key: s3cr3t
+
+# set a prefix for all paths in the spec above
+path: /dev

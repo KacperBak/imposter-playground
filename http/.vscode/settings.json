@@ -1,0 +1,24 @@
+{
+    "rest-client.environmentVariables": {
+        "dev": {
+            "env": "dev",
+            "X-Custom-Api-Key": "s3cr3t"
+        },
+        "test": {
+            "env": "test",
+            "X-Custom-Api-Key": "s3cr3t"
+        },
+        "prod": {
+            "env": "prod",
+            "X-Custom-Api-Key": "s3cr3t"
+        },
+    },
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "latex",
+        "plaintext",
+        "markdown"
+    ]
+}

@@ -1,0 +1,12 @@
+### (1) get all pets using DEV environment hardcoded, and secret hardcoded
+GET http://localhost:8080/dev/api/pets
+X-Custom-Api-Key: s3cr3t
+
+### (2) get all pets using DEV environment hardcoded, but without any secret header value
+GET http://localhost:8080/dev/api/pets
+
+### (3) get all pets using DEV environment as VAR, and secret as VAR
+GET http://localhost:8080/{{env}}/api/pets
+X-Custom-Api-Key: {{X-Custom-Api-Key}}
+
+

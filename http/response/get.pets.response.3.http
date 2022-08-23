@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+X-Imposter-Request: b48e8c06-b2d0-4eec-ab62-e2842e12ba0a
+Server: imposter
+Content-Type: application/json
+connection: close
+content-length: 47
+
+[
+  {
+    "name": "",
+    "tag": "",
+    "id": 0
+  }
+]
